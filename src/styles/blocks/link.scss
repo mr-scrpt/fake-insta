@@ -1,0 +1,11 @@
+.link {
+	display: inline;
+	text-decoration: none;
+	color: $color_gray_dark;
+	font-weight: bold;
+
+	&:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}

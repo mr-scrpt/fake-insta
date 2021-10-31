@@ -1,0 +1,45 @@
+.footer {
+	&__inner {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 15px 0;
+	}
+
+	&__iconline {
+		width: 100%;
+		display: flex;
+	}
+
+	&__icon-heart {
+		margin-right: 15px;
+	}
+
+	&__icon-comment {
+		margin-right: 15px;
+	}
+
+	&__icon-share {
+		margin-right: 15px;
+	}
+
+	&__icon-flag {
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	&__likeline {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	&__ava {
+		width: 26px;
+		height: 26px;
+		border-radius: 50%;
+	}
+
+	&__text {
+		margin-left: 15px;
+	}
+}

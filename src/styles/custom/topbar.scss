@@ -1,0 +1,36 @@
+.topbar {
+	&__inner {
+		display: flex;
+	}
+
+	&__avabox {
+		width: 36px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__ava {
+		width: 36px;
+		height: 36px;
+		border-radius: 50%;
+	}
+
+	&__about {
+		line-height: 20px;
+		margin-left: 15px;
+	}
+
+	&__nik {
+	}
+
+	&__place {
+	}
+
+	&__dotsbox {
+		margin-left: auto;
+		margin-right: 0;
+		display: flex;
+		align-items: center;
+		position: relative;
+	}
+}

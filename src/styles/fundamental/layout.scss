@@ -1,0 +1,14 @@
+.layout {
+	&__inner {
+		position: relative;
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	&__wrap {
+		max-width: 720px;
+		margin: 0 auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

@@ -1,0 +1,48 @@
+/* Библиотеки */
+/*@import "./lib/smartgrid.scss";*/
+
+/* INIT */
+@import "./preset/reset.scss";
+@import "./preset/var.scss";
+/*@import "./preset/mixins.scss";*/
+/*@import "./preset/fonts.scss";*/
+/*@import "./preset/animation.scss";*/
+
+/* Фундоментальные Блоки */
+@import "./fundamental/page.scss";
+@import "./fundamental/layout.scss";
+@import "./fundamental/footer.scss";
+@import "./blocks/img.scss";
+@import "./blocks/link.scss";
+@import "./blocks/deco.scss";
+/*@import "./fundamental/header.scss";
+
+
+/* Блоки */
+/*@import "./blocks/button.scss";
+@import "./blocks/input.scss";
+@import "./blocks/textarea.scss";
+@import "./blocks/checkbox.scss";
+@import "./blocks/title.scss";
+@import "./blocks/icon.scss";
+@import "./blocks/text.scss";
+@import "./blocks/relative-box.scss";*/
+
+/* Блоки Верстки */
+/*@import "./logo.scss";*/
+
+@import "./custom/content.scss";
+@import "./custom/post.scss";
+@import "./custom/topbar.scss";
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+body {
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
